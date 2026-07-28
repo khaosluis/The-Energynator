@@ -14,7 +14,7 @@ Each price value on _preciosSubconjunto_ is assigned by _varsSubconjunto_ to an 
 _solucion_(_preciosSubconjunto_,_varsSubconjunto_) = _Sum((c_i)*(x_i)) from i=1 to n = (c_1)*(x_1) + (c_2)*(x_2) + ... +  (c_n)*(x_n)_
 
 Then the restrictions _restriccionNeg_, _restriccionCantidad_, and _restriccionEntera_ are considered:
-_restriccionNeg_ and _restriccionEntera_ define _solucion_ as a natural (non-negative integer) number set, while _restriccionCantidad_ define the maximum of the natural number _x_, that's the domain of the _solucion_ lineal sum function starting from 0. (_restriccionCantidad_ can be manually modified to set the maximum of different catalog products to buy.
+_restriccionNeg_ and _restriccionEntera_ define _solucion_ as a natural (non-negative integer) number set, while _restriccionCantidad_ define the maximum of the natural number _x_, that's the domain of the _solucion_ lineal sum function starting from 0. _restriccionCantidad_ can be manually modified to set the maximum of different catalog products to buy.
 
 All these restrictions are put within the _LinearOptimization_ Wolfram Mathematica built-in function.
 
