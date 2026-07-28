@@ -7,7 +7,7 @@ The _comis_ variable is has a fixed value and gives the _importevale_ product, t
 The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the _importevale_ product (the voucher).
 
 ### WHAT THIS MODEL ACTUALLY DOES
-*THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... format, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal precios length.
+*THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
 
 Each price value on _preciosSubconjunto_ is assigned by _varsSubconjunto_ to an integer variable _x_, with _x_ going from 0 to _n_, on array format. This is the general modeling of the optimizable lineal function:
 
