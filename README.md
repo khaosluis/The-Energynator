@@ -18,7 +18,7 @@ _restriccionNeg_ and _restriccionEntera_ define _solucion_ as a natural (non-neg
 
 All these restrictions are put within the _LinearOptimization_ Wolfram Mathematica built-in function.
 
-At the time of reporting the results, the function _solucion_ gives an array of format "_x[p_i]->x_i_", where _p_i_ being the position of each value in _preciosSubconjunto_, _x_ is the bounded integer-valued decision variables vector, and _x_i_ is the output value telling how many units of each _preciosSubconjunto_ product with _x_i_ greater then zero, to buy.
+At the time of reporting the results, the function _solucion_ gives an array of format "_x[p_i]->x_i_", where _p_i_ being the position of each value in _preciosSubconjunto_, _x_ being the bounded integer-valued decision variables vector, and _x_i_ being the output value telling how many units of each _preciosSubconjunto_ product with _x_i_ greater then zero, to buy.
 
 This format is cleaned and expressed to vector form _{x_1,x_2...,x_n}_ with the _Flatten_ built-in Mathematica function by the _indicesActivos_ variable. Now we have the _solucion_ solution vector.
 
