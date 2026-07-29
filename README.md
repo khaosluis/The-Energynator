@@ -1,12 +1,12 @@
 # THE ENERGYNATOR
 This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on a supermarket catalog, taking an input price value and applying a small coins machine commission.
 
-## HOW TO USE THE MODEL
+## HOW TO USE _THE ENERGYNATOR_
 An input value is written on _importecald_ (on euro cents).
 The _comis_ variable is has a fixed value and gives the _importevale_ product, that's the value of the redeemable voucher.
 The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the _importevale_ product (the voucher).
 
-### WHAT THIS MODEL ACTUALLY DOES
+### WHAT _THE ENERGYNATOR_ ACTUALLY DOES
 *THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
 
 Each price value on _preciosSubconjunto_ is assigned by _varsSubconjunto_ to an integer variable _x_, with _x_ going from 0 to _n_, on array format. This is the general modeling of the optimizable lineal function:
