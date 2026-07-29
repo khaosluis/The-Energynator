@@ -1,5 +1,5 @@
 # THE ENERGYNATOR
-This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on a supermarket catalog, taking an input price value.
+This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on the Carrefour supermarket online catalog https://www.carrefour.es/, based on an input price value.
 
 ## HOW TO USE _THE ENERGYNATOR_
 An input value is written on _importe_ (on euro cents).
