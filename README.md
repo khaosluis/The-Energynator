@@ -1,10 +1,9 @@
 # THE ENERGYNATOR
-This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on a supermarket catalog, taking an input price value and applying a small coins machine commission.
+This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on a supermarket catalog, taking an input price value.
 
 ## HOW TO USE _THE ENERGYNATOR_
-An input value is written on _importecald_ (on euro cents).
-The _comis_ variable is has a fixed value and gives the _importevale_ product, that's the value of the redeemable voucher.
-The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the _importevale_ product (the voucher).
+An input value is written on _importe_ (on euro cents).
+The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the input price _importe_.
 
 ### WHAT _THE ENERGYNATOR_ ACTUALLY DOES
 *THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
@@ -28,7 +27,8 @@ A third variable _cantidadComprar_ is assigned as a product of each _indicesActi
 
 The result is then reported, with the _Print_ function that writes the _"Hoy tienes que comprar: "_ message and then makes a visual table with the rows representing name, quantity and price of each product, so on each column the product and its information can be easily read and interpreted.
 
-A simple arithmetic sum can be made manually to check that the prices are equal to the variable _importevale_
+A simple arithmetic sum can be made manually to check that the prices are equal to the variable _importe_
 
 ### MODEL LIMITATIONS
 This model doesn't updates the price raise of the products due to market inflation, it has to be updated from the table itself.
+Also is best to use when shopping online in the same Carrefour catalog, which this table is curently based, to avoid online versus physical marked retail price fluctuation.
