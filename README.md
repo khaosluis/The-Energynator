@@ -3,7 +3,7 @@ This is a model done in Wolfram Mathematica that applies random sampling and lin
 
 ## HOW TO USE _THE ENERGYNATOR_
 An input value is written on _importe_ (on euro cents).
-The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the input price _importe_.
+The code takes an imported bidimensional name-price product table and then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the input price _importe_.
 
 ### WHAT _THE ENERGYNATOR_ ACTUALLY DOES
 *THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
