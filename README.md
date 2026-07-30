@@ -7,11 +7,17 @@ The _comis_ variable is has a fixed value and gives the _importevale_ product, t
 The code then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the _importevale_ product (the voucher).
 
 To run locally:
+
 -Download the .xlsx table and the .nb or .wl files and put them into a folder name _x_
+
 -On the Wolfram command _SetDirectory[]_ that's on the .nb and .wl files, put the name of your folder with quotes and inside the brackets.
+
 -Input the value in euro cents.
+
 -On the _restriccionCantidad = Thread[Total[varsSubconjunto] <= 3]_ field, you can change the value to another integer number, this will be the maximum of diferent products for _THE ENERGYNATOR_ to choose among the table.
+
 -On Wolfram Mathematica menu bar, click Run -> Run Notebook.
+
 -_Voilà_! At the end of the code, look for the output table that give the products, with their quantities and individual retail prices in euros.
 
 ### WHAT THIS MODEL ACTUALLY DOES
