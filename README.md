@@ -32,7 +32,7 @@ All these restrictions are put within the _LinearOptimization_ Wolfram Mathemati
 
 At the time of reporting the results, the function _solucion_ gives an array of format "_x[p_i]->x_i_", where _p_i_ being the position of each value in _preciosSubconjunto_, _x_ being the bounded integer-valued decision variables vector, and _x_i_ being the output value telling how many units of each _preciosSubconjunto_ product with _x_i_ greater then zero, to buy.
 
-This format is cleaned and expressed to vector form _{x_1,x_2...,x_n}_ with the _Flatten_ built-in Mathematica function by the _indicesActivos_ variable. Now we have the _solucion_ solution vector.
+This format is then cleaned and expressed to vector form _{x_1,x_2...,x_n}_ with the _Flatten_ built-in Mathematica function by the _indicesActivos_ variable. Now we have the _solucion_ solution vector.
 
 The table _datos_ is called as a function of _indicesActivos_, assigning each of the _solucion_ values on the vector, to its corresponding string value of the column vector _nombres_ by the _nombresElegidos_ variable.
 In the same way, the _preciosElegidos_ variable is made based on the same principle, to assign each _indicesActivos_ value to this variable.
