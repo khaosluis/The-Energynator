@@ -12,7 +12,7 @@ To run locally:
 
 -On the function _importe_, input the value in euro cents.
 
--On the _restriccionCantidad = Thread[Total[varsSubconjunto] <= 3]_ field, you can change the value to another integer number, this will be the maximum of diferent products for _THE ENERGYNATOR_ to choose among the table.
+-On the _restriccionCantidad = Thread[Total[varsSubconjunto] <= 3]_ field, you can change the value to another integer number, this will be the maximum of different products for _THE ENERGYNATOR_ to choose among the table.
 
 -On Wolfram Mathematica menu bar, click Run -> Run Notebook.
 
