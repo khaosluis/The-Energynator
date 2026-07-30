@@ -31,6 +31,6 @@ A simple arithmetic sum can be made manually to check that the prices are equal 
 
 ### MODEL LIMITATIONS
 
--This model doesn't updates the price raise of the products due to market inflation, it has to be updated from the table itself.
+-This model does not update the price raise of the products due to market inflation. It has to be updated manually from the table itself.
 
 -Also is best to use when shopping online in the same Carrefour catalog, which this table is curently based, to avoid online versus physical marked retail price fluctuation.
