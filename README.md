@@ -2,7 +2,7 @@
 This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on a supermarket catalog, taking an input price value.
 
 ## HOW TO USE THE MODEL
-An input value is written on _importe_ (on euro cents), and then an output table with the specific catalog products and their individual quantitites and prices is returned, that are equal to the _importe_ value.
+An input value is written on _importe_ (on euro cents), and then, on execution, an output table with the specific catalog products and their individual quantitites and prices is returned, that are equal to the _importe_ value.
 
 To run locally:
 
