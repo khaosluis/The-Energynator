@@ -6,7 +6,7 @@ An input value is written on _importe_ (on euro cents), and then, on execution, 
 
 To run locally:
 
--Download the .xlsx table and the .nb or .wl files and put them into a folder name _x_
+-Download the .xlsx table and the .nb or .wl files and put them into a folder name _x_.
 
 -On the Wolfram command _SetDirectory[]_ that's on the .nb and .wl files, put the name of your folder with quotes and inside the brackets.
 
