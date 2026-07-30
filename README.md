@@ -30,5 +30,7 @@ The result is then reported, with the _Print_ function that writes the _"Hoy tie
 A simple arithmetic sum can be made manually to check that the prices are equal to the variable _importe_
 
 ### MODEL LIMITATIONS
-This model doesn't updates the price raise of the products due to market inflation, it has to be updated from the table itself.
-Also is best to use when shopping online in the same Carrefour catalog, which this table is curently based, to avoid online versus physical marked retail price fluctuation.
+
+-This model doesn't updates the price raise of the products due to market inflation, it has to be updated from the table itself.
+
+-Also is best to use when shopping online in the same Carrefour catalog, which this table is curently based, to avoid online versus physical marked retail price fluctuation.
