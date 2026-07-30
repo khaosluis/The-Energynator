@@ -40,4 +40,4 @@ A third variable _cantidadComprar_ is assigned as a product of each _indicesActi
 
 The result is then reported, with the _Print_ function that writes the _"Hoy tienes que comprar: "_ message and then makes a visual table with the rows representing name, quantity and price of each product, so on each column the product and its information can be easily read and interpreted.
 
-A simple arithmetic sum can be made manually to check that the prices are equal to the variable _importe_.
+A simple arithmethic sum can be made manually to check that the prices are equal to the variable _importe_.
