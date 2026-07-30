@@ -10,7 +10,7 @@ To run locally:
 
 -On the Wolfram command _SetDirectory[]_ that's on the .nb and .wl files, put the name of your folder with quotes and inside the brackets.
 
--Input the value in euro cents.
+-On the function _importe_, input the value in euro cents.
 
 -On the _restriccionCantidad = Thread[Total[varsSubconjunto] <= 3]_ field, you can change the value to another integer number, this will be the maximum of diferent products for _THE ENERGYNATOR_ to choose among the table.
 
