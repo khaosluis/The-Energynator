@@ -5,6 +5,13 @@ This is a model done in Wolfram Mathematica that applies random sampling and lin
 An input value is written on _importe_ (on euro cents).
 The code takes an imported bidimensional name-price product table and then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the input price _importe_.
 
+1- Download the repository locally.
+2- Open energynator2.nb (Note you must have the software Wolfram Mathematica in order to open it).
+3- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes (\\). You MUST have the _tablaenergynator3.xlsx_ table there.
+4- Set your desired input value (en Euro Cents) at _importe_.
+5-On the WM menu, click _Evaluation_, then _Evaluate Notebook_.
+6- Done! You'll have the results displayed on a visual table at the very end of the code.
+
 ### WHAT _THE ENERGYNATOR_ ACTUALLY DOES
 *THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
 
