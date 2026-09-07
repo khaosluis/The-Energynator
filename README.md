@@ -2,12 +2,12 @@
 This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on the Carrefour supermarket online catalog https://www.carrefour.es/, based on an input price value.
 
 ## HOW TO USE _THE ENERGYNATOR_
-1- Download the repository locally. 
-2- Open energynator2.nb (Note you must have the software Wolfram Mathematica in order to open it).
-3- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes (\\). You MUST have the _tablaenergynator3.xlsx_ table there.
-4- Set your desired input value (en Euro Cents) at _importe_.
-5-On the WM menu, click _Evaluation_, then _Evaluate Notebook_.
-6- Done! You'll have the results displayed on a visual table at the very end of the code.
+- Download the repository locally. 
+- Open energynator2.nb (Note you must have the software Wolfram Mathematica in order to open it).
+- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes (\\). You MUST have the _tablaenergynator3.xlsx_ table there.
+- Set your desired input value (en Euro Cents) at _importe_.
+-On the WM menu, click _Evaluation_, then _Evaluate Notebook_.
+- Done! You'll have the results displayed on a visual table at the very end of the code.
 
 ### WHAT _THE ENERGYNATOR_ ACTUALLY DOES
 *THE ENERGYNATOR* imports a local table on .csv, .xml, .xlsx... formats, separates columns into the string values column vector _nombres_ and the numeric values columns vector _precios_, then does a random sampling _combiRandom_ of vector precios resulting on a subset _preciosSubconjunto_ with equal _precios_ length.
