@@ -4,7 +4,7 @@ This is a model done in Wolfram Mathematica that applies random sampling and lin
 ## HOW TO USE _THE ENERGYNATOR_
 - Download the repository locally. 
 - Open energynator2.nb (Note you must have the software Wolfram Mathematica in order to open it).
-- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes (\\). You MUST have the _tablaenergynator3.xlsx_ table there.
+- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes. You MUST have the _tablaenergynator3.xlsx_ table there.
 - Set your desired input value (en Euro Cents) at _importe_.
 -On the WM menu, click _Evaluation_, then _Evaluate Notebook_.
 - Done! You'll have the results displayed on a visual table at the very end of the code.
