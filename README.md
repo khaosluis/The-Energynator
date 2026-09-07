@@ -2,9 +2,6 @@
 This is a model done in Wolfram Mathematica that applies random sampling and lineal optimization to a table of products and prices of energy drinks on the Carrefour supermarket online catalog https://www.carrefour.es/, based on an input price value.
 
 ## HOW TO USE _THE ENERGYNATOR_
-An input value is written on _importe_ (on euro cents).
-The code takes an imported bidimensional name-price product table and then returns and output table with the specific catalog products with their individual quantitites and prices, that have to be bought in order to be equal to the input price _importe_.
-
 1- Download the repository locally. 
 2- Open energynator2.nb (Note you must have the software Wolfram Mathematica in order to open it).
 3- At Wolfram Mathematica interface, set your local working directory at _SetDirectory[]_. Put it inside the brackets, between quotes and use double slashes (\\). You MUST have the _tablaenergynator3.xlsx_ table there.
